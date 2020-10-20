@@ -19,8 +19,8 @@
     <?php
     if (isset($_POST['verstuurd'])) {
         echo "backend code";
-        $email = htmlspecialchars($_POST['mail']);
-        $password = htmlspecialchars($_POST['ww']);
+        $mail = htmlspecialchars($_POST['mail']);
+        $ww = htmlspecialchars($_POST['ww']);
         echo "<br>e-mail: $mail";
         echo "<br>wachtwoord: $ww";
     }
