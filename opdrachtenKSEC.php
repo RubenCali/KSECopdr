@@ -11,14 +11,14 @@
 </head>
 
 <body>
-    <form name="inlggen" action="" method="POST">
+    <form name="login" action="" method="POST">
         <input type="text" name="mail" value="iemand@mail.com">
         <input type="password" name="ww" value="wachtwoord">
         <input type="submit" name="verstuurd" value=" log in ">
     </form>
     <?php
     if (isset($_POST['verstuurd'])) {
-        echo "-----------Backend----------";
+        echo "backend code";
         $email = htmlspecialchars($_POST['mail']);
         $password = htmlspecialchars($_POST['ww']);
         echo "<br>e-mail: $mail";
